@@ -57,16 +57,16 @@ const ProjectPage = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 whileHover={{ scale: 1.02 }}
-                className="relative group relative overflow-hidden rounded-2xl border border-white/10"
+                className="relative group overflow-hidden rounded-2xl border border-white/10"
               >
                 <img
                   src={image}
                   alt={`${project.title} screenshot ${index + 1}`}
-                  className="w-full aspect-video object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="w-full aspect-video object-contain bg-white transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="absolute bottom-4 left-4 text-white">
-                    <div className="text-sm font-medium">View {index + 1}</div>
+                    <div className="text-sm font-medium">{index === 0 ? 'Main View' : 'Alt View'}</div>
                   </div>
                 </div>
               </motion.div>

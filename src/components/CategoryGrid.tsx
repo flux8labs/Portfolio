@@ -10,8 +10,8 @@ const CategoryGrid = () => {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.1,
-        delayChildren: 0.2
+        staggerChildren: 0.05,
+        delayChildren: 0.05
       }
     }
   };
@@ -25,7 +25,7 @@ const CategoryGrid = () => {
       opacity: 1, 
       y: 0,
       transition: { 
-        duration: 0.6
+        duration: 0.3
       }
     }
   };
@@ -37,7 +37,7 @@ const CategoryGrid = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.4 }}
           className="relative text-center mb-12"
         >
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">

@@ -19,7 +19,7 @@ const HeroBackground = () => {
       {/* 3D Grid Background */}
       <div className="absolute inset-0">
         <div 
-          className="absolute inset-0 opacity-20"
+           className="absolute inset-0 opacity-20"
           style={{
             backgroundImage: `
               linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),

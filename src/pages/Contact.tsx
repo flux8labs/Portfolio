@@ -32,20 +32,20 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      content: "hello@flux8labs.com",
-      href: "mailto:hello@flux8labs.com"
-    },
-    {
-      icon: Phone,
-      title: "Phone",
-      content: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      content: "info@flabs.com",
+      href: "mailto:info@flabs.com"
     },
     {
       icon: MapPin,
-      title: "Location",
-      content: "San Francisco, CA",
-      href: "#"
+      title: "Address (Jaipur)",
+      content: "36, Defense Colony, 302012 Jaipur, Rajasthan, India",
+      href: "https://maps.google.com/?q=36, Defense Colony, Jaipur, Rajasthan, India"
+    },
+    {
+      icon: MapPin,
+      title: "Address (Gurugram)",
+      content: "37, Udyog Vihar, 122015 Gurugram, Haryana, India",
+      href: "https://maps.google.com/?q=37, Udyog Vihar, Gurugram, Haryana, India"
     }
   ];
 

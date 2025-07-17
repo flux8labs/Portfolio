@@ -138,15 +138,12 @@ const Footer = () => {
               © {currentYear} Flux8labs. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
-              <Link to="/privacy-policy" className="text-gray-500 hover:text-white transition-colors font-light">
+              <a href="https://flux8labs.com/privacy" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-colors font-light">
                 Privacy Policy
-              </Link>
-              <Link to="/terms-of-service" className="text-gray-500 hover:text-white transition-colors font-light">
+              </a>
+              <a href="https://flux8labs.com/terms" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-colors font-light">
                 Terms of Service
-              </Link>
-              <Link to="/cookie-policy" className="text-gray-500 hover:text-white transition-colors font-light">
-                Cookie Policy
-              </Link>
+              </a>
             </div>
           </div>
         </div>
